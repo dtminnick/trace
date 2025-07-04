@@ -1,0 +1,9 @@
+sample_id,task_id,task_name,description,actor,inputs,outputs,tools
+sop_mock_001,1,Receive Distribution Request,Receive distribution request via fax or participant portal,Associate,Distribution Request,Received Request,NA
+sop_mock_001,2,Verify Completeness,Verify the request has all required pages and signatures,Associate,Distribution Request,Verified Request,NA
+sop_mock_001,3,Review Plan Notes,Review plan notes and recent transaction history for processing restrictions,Associate,"Plan Notes, Transaction History",NA,NA
+sop_mock_001,4,Request Additional Info,Send a request for additional info to the participant using a template,Associate,Incomplete Request,Request for Info Sent,Salesforce
+sop_mock_001,5,Enter Request in System,Enter the request into the recordkeeping system,Associate,Verified Request,Entered Request,RetirementCore
+sop_mock_001,6,Confirm Banking Instructions,Confirm the participant’s banking instructions,Associate,Banking Instructions,Confirmed Instructions,RetirementCore
+sop_mock_001,7,Submit for Processing,Submit the distribution request for processing,Associate,Entered Request,Processed Request,RetirementCore
+sop_mock_001,8,Update Case and Attach Docs,Update the workflow case status and attach supporting documents,Associate,Supporting Documents,Updated Workflow Case,Salesforce

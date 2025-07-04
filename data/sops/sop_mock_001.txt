@@ -1,0 +1,14 @@
+Title: Processing Participant Distribution Requests
+
+Purpose: This procedure outlines the steps followed by the Participant Services team to review, validate, and process distribution requests submitted by plan participants.
+
+Procedure:
+1. Upon receiving a distribution request via fax or the participant portal, the associate should verify the request has all required pages and signatures.
+2. The associate must review the participant’s plan notes and recent transaction history to check for any processing restrictions.
+3. If required documentation is missing or incomplete, the associate should send a request for additional information to the participant using the standard communication template in Salesforce.
+4. Once all necessary information is collected, enter the request into the recordkeeping system, confirm the participant’s banking instructions, and submit for processing.
+5. Finally, update the workflow case status and attach all supporting documentation to the participant’s case record.
+
+Notes:
+- Common reasons for NIGO (not in good order) include missing signatures or incorrect distribution amounts.
+- Use the RetirementCore system for plan data and banking confirmation; use Salesforce for communication tracking and case management.

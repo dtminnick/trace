@@ -1,0 +1,149 @@
+copilot:
+  keywords:
+    - "review"
+    - "extract key information"
+    - "summarize"
+    - "search for relevant details"
+    - "interpret"
+    - "summarize"
+    - "analyze"
+    - "identify required documents"
+    - "read and identify"
+  phrases:
+    - "review case notes"
+  excluded_terms:
+   - "review procedure"
+   - "review SOP"
+   - "review schedule"
+   - "review with manager"
+   - "summarize meeting"
+   - "identify team"
+
+classification:
+  keywords:
+    - "route to appropriate team"
+    - "categorize"
+    - "assign"
+    - "determine workflow path"
+    - "evaluate priority"
+    - "determine type"
+    - "assign to category"
+    - "triage"
+    - "label case"
+  phrases:
+  
+  excluded_terms:
+    - "assign training"
+    - "route form"
+    - "determine cost"
+    - "assign task"
+
+document_processing:
+  keywords:
+    - "validate form"
+    - "check attached"
+    - "check attachments"
+    - "extract from application"
+    - "extract from document"
+    - "scan"
+    - "scan form"
+    - "verify signature"
+  phrases:
+  
+  excluded_terms:
+    - "complete form"
+    - "submit form"
+    - "attach file"
+    - "validate training""
+
+rpa:
+  keywords:
+    - "enter into system"
+    - "key data"
+    - "key values"
+    - "copy and paste"
+    - "copy/paste"
+    - "update record"
+    - "click"
+    - "click through"
+  phrases:
+  
+  excluded_terms:
+   - "enter conversation"
+   - "update policy"
+   - "click with client"
+   - "copy link"
+
+judgment_support:
+  keywords:
+    - "verify"
+    - "verify accuracy"
+    - "evaluate"
+    - "evaluate request"
+    - "check compliance"
+    - "determine if valid"
+    - "review for compliance"
+    - "compare against"
+    - "identify mismatch"
+    - "detect mismatch"
+  phrases:
+  
+  excluded_terms:
+   - "check with team"
+   - "verify login"
+   - "evaluate manager"
+   - "determine name"
+
+workflow_orchestration:
+  keywords:
+    - "loop"
+    - "loop back"
+    - "retrigger"
+    - "resend"
+    - "resend request"
+    - "escalate"
+    - "escalate if no reply"
+    - "check for pending"
+    - "wait for response"
+    - "route again"
+  phrases:
+  
+  excluded_terms:
+    - "loop in team"
+    - "send again by mistake"
+    - "pending hire"
+    - "escalate to leadership"
+    
+anomoly_detection:
+  keywords:
+    - "identify discrepancy"
+    - "detect unusual activity"
+    - "flag exceptions"
+    - "alert if mismatch"
+  phrases:
+  
+  excluded_terms:
+    - "exception report"
+    - "mismatch in formatting"
+    - "error from client"
+    - "flag or follow up"
+    
+sentiment_analysis:
+  keywords:
+    - "interpret client tone"
+    - "assess complaint"
+    - "detect dissatisfaction"
+    - "analyze feedback"
+    
+recommendation:
+  keywords:
+    - "suggest best option"
+    - "prioritize alternatives"
+    - "recommend"
+    - "recommend resolution path"
+    
+summarization:
+  keywords:
+    - "summarize client history"
+    - "create summary note"
+    - "generate overview"
